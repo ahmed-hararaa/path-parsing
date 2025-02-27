@@ -1,4 +1,4 @@
-# path-parsing
+# PathParsing.Net
 This library is a C# port of the Dart path_parsing library.
 Original Dart source: https://github.com/flutter/packages/tree/main/third_party/packages/path_parsing
 
