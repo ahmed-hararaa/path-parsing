@@ -1,0 +1,43 @@
+# Ignore Visual Studio and Rider-specific files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build artifacts
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.log
+*.cache
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore test results
+TestResults/
+
+# Ignore Rider settings
+*.sln.iml
+
+# Ignore coverage reports
+coverage/
+
+# Ignore secrets and configuration files
+appsettings*.json
+secrets.json
