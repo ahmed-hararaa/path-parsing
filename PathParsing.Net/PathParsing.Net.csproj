@@ -10,17 +10,8 @@
         <Authors>Ahmed Harara</Authors>
         <Description>Library to create a pure parsing for SVG paths and code generation</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageProjectUrl>https://github.com/ahmed-hararaa/path-parsing</PackageProjectUrl>
         <RepositoryUrl>https://github.com/ahmed-hararaa/path-parsing</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
     </PropertyGroup>
-    <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath="/" />
-    </ItemGroup>
-
-    <!-- Automatically copy README.md before packing -->
-    <Target Name="CopyReadme" BeforeTargets="Pack">
-        <Copy SourceFiles="..\README.md" DestinationFiles="README.md" />
-    </Target>
 </Project>
